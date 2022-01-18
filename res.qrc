@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+    </qresource>
+    <qresource prefix="/assets">
+        <file>sudoku.db</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file alias="GreenDot">res/Green Dot.png</file>
+        <file alias="RedDot">res/Red Dot.png</file>
+        <file alias="YellowDot">res/Yello Dot.png</file>
+        <file alias="NewGameIcon">res/New Game Icon.png</file>
+        <file alias="ClearIcon">res/Clear Icon.png</file>
+        <file alias="HintIcon">res/Hint Icon.png</file>
+        <file alias="CheckAnsIcon">res/Check Ans Icon.png</file>
+        <file alias="EyeOnIcon">res/EyeOff Icon.png</file>
+        <file alias="EyeOffIcon">res/EyeOn Icon.png</file>
+        <file alias="bingo">res/bingo.png</file>
+        <file alias="failed">res/failed.png</file>
+        <file alias="PauseIcon">res/Pause Icon.png</file>
+        <file alias="PlayIcon">res/play.png</file>
+        <file alias="DownArrow">res/DownArrow.png</file>
+    </qresource>
+</RCC>

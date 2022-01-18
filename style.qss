@@ -1,0 +1,67 @@
+QLabel {
+	padding-left:10px;
+        font-family: Microsoft Yahei;
+	font-size: 11px;
+}
+
+QTableWidget {
+	gridline-color: black;
+	font-size: 25px;
+}
+
+#button_undo, #button_redo, #button_del,
+#button_1, #button_2, #button_3,
+#button_4, #button_5, #button_6,
+#button_7, #button_8, #button_9 {
+    /*border: 2px solid #8f8f91;
+    border-radius: 6px;*/
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+	font-size: 13px;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:default {
+    border-color: navy;
+}
+
+QLCDNumber{
+	color: white;
+	background-color: black;
+	padding: 1px;
+	border-style: solid;  
+	border: 2px solid gray;  
+	border-radius: 8px;	
+	min-width: 4em;
+}  
+
+QComboBox {
+        font-family: Microsoft Yahei;
+	font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px; 
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 3px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox::down-arrow {
+	background-repeat: no-repeat;
+    background-position: center center;
+	height: 15px;
+	width: 15px;
+	image: url(:/image/DownArrow);
+}
